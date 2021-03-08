@@ -1,26 +1,27 @@
-# Opencart
+# OpenCart
 
- Плагин: InterKassa Gateway
+ Plugin: Interkassa Gateway
  
- Описание: Платежный шлюз "Интеркасса" для сайтов Open Cart 1.5.x - 3.0.x (версия протокола Интеркассы 2.0)
+ Description: Interconscass payment gateway for Open Cart sites 1.5.x - 3.0.x (Intercass Protocol 2.0)
  
- Предназначение: Модуль добавляет способ оплаты "Интеркасса" для Open Cart 1.5.x - 3.0.x
+ Purpose: The module adds the "Intercons" payment method for Open Cart 1.5.x - 3.0.x
  
  
- ### Установка
- 1. Убедитесь в соответствии версий модуля и вашей CMS, они должны совпадать.
- 2. Скачать плагин к себе на компьютер, распаковать
- 3. Закачать все из папки upload на сервер
- 4. зайти в админку, найти в списке метод оплаты "InterKassa" и нажать "Активировать"
- 5. Перейти на вкладку настроек, заполнить все поля, уникальный номер кошелька, секртеный ключ, тестовый ключ при необходимости.
- 6. Можете воспользоваться нашим новым API. Для этого возьмите id и key с настроек вашего аккаунта , вкладка API. 
-   Также вам необходимо добавить IP(айпи) вашего сайта в поле IP фильтр. 
+ ### Installation
+ 1. Make sure that the versions of the module and your CMS must match.
+ 2. Download plugin to your computer, unpack
+ 3. Download all from the Upload folder to the server
+ 4. Go to the administrator, find the "Interkassa" method in the list and click "Activate"
+ 5. Go to the Settings tab, fill in all fields, a unique wallet number, a secret key, test key if necessary.
+ 6. You can use our new API. To do this, take the ID and KEY from your account settings, API tab.
+   You also need to add IP (IP) your site in the IP Filter field.
    
- Узнать свой айпи можно в любом интернет-сервисе "айпи сайта" или в консоли вашей операционной системы наберите:
- ping адрес вашего сайта 
- например:
- ping interkassa.com
- Жмем "Сохранить"
- Метод активен и появится в списке оплат вашего магазина.
+ You can find out your ip in any Internet service "Ipite Site" or in your operating system console:
+ Ping address of your site
+ eg:
+ Ping Interkassa.com.
+ Click "Save"
+ The method is active and will appear in the list of payment of your store.
  
- P.S. Для тестирования платежей в кассе используйте тестовую валюту XTS (тестовая платежная система), для это необходимо включить в кассе этот пункт, и далее при перенаправлении на сайт "Интеркассы" выбрать ее в качестве оплаты, далее система сгенерирует тестовую страничку со всеми видами ответа от сервера, это поможет вам настроить все необходимые параметры и убедиться в работоспособности вашей системы.
+ P.S. To test payments at the checkout, use the XTS test currency (test payment system), for this it is necessary to include this item at the box office, and then, when redirecting the Intercass website to select it as payment, then the system will generate a test page with all types of response from the server This will help you configure all the necessary parameters and make sure that your system is working.
+ 
